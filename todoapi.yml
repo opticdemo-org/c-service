@@ -10,7 +10,7 @@ paths:
           in: query
           schema:
             type: number
-          required: true
+          required: false
       responses:
         '200':
           description: ok
@@ -21,7 +21,6 @@ paths:
                 properties:
                   nullableString: 
                     type: "string"
-                    nullable: true
                   todos:
                     type: array
                     items:
