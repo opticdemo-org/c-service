@@ -11,6 +11,11 @@ paths:
           schema:
             type: number
           required: true
+        - name: FUN_TIME
+          in: query
+          schema:
+            type: number
+          required: true  
       responses:
         '200':
           description: ok
