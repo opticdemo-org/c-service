@@ -34,7 +34,7 @@ components:
       type: object
       properties:
         name:
-          type: string
+          type: number
         status:
           type: string
         created_at:
