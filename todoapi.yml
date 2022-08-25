@@ -7,7 +7,7 @@ paths:
     get:
       parameters:
         - name: limit
-          in: query
+          in: query-places
           schema:
             type: number
           required: true
