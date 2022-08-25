@@ -35,9 +35,10 @@ components:
         name:
           type: string
         status:
-          type: string
+          type: number
         created_at:
           type: string
+          nullable: true
         example:
           type: string
           format: date-time
